@@ -154,7 +154,7 @@ export default function AddPopup({bFn}) {
                             <input required onChange={onTextInputChange} type="email" name="mail" id="mail" placeholder="Mail ID" />
                             <input onChange={onTextInputChange} type="number" name="phno" placeholder="Whatsapp or Phone No."/>
                             <input required onChange={onTextInputChange} id="ot" type="text" name="other" placeholder="Any other social media" />
-                            <label htmlFor="ot">EX: insta - devs_rec</label>
+                            <label htmlFor="ot">EX: insta - recdevs</label>
                         </div>
                     </div>
 
