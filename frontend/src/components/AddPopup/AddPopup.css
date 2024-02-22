@@ -1,0 +1,131 @@
+.add-popup-container {
+    position: fixed;
+    width: 290px;
+    min-height: 300px;
+    max-height: 90%;
+    overflow-y: scroll;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-red-1);
+    z-index: 101;
+    border: 2px solid var(--color-red);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.add-popup-container input {
+    width: 90%;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: 2px solid transparent;
+}
+
+.add-popup-container input:focus {
+    outline-color: var(--color-red);
+}
+
+#brief {
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    outline: 2px solid transparent;
+}
+
+#brief:focus {
+    outline-color: var(--color-red);
+}
+
+#img-ip {
+    display: none;
+}
+
+.add-type, .add-dept {
+    margin: 10px auto;
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.add-type select, .add-dept select {
+    display: block;
+    height: 40px;
+    background-color: var(--color-red);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: 2px solid transparent;
+}
+
+.add-type select option, .add-dept select option {
+    font-weight: 500;
+    background-color: var(--color-red-1);
+}
+
+.add-type select:focus, .add-dept select:focus {
+    outline-color: var(--color-red-1);
+}
+
+.image label {
+    text-align: center;
+    display: block;
+    height: 30px;
+    background-color: var(--color-red);
+    width: max-content;
+    margin: 20px auto;
+    display: grid;
+    place-items: center;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+
+.image-container {
+    width: 90%;
+    display: block;
+    /* height: 200px; */
+    /* background-color: aqua; */
+    margin: 5px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.uploaded-image {
+    display: block;
+    width: 100%;
+    height: max-content;
+}
+
+.add-p-b-ctn .button:nth-child(1){
+    background-color: var(--color-violet-1);
+    color: var(--color-white);
+    border: 1px solid transparent;
+}
+
+.add-p-b-ctn .button:nth-child(1):hover{ 
+    color: var(--color-violet-1);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-violet-1);
+
+}
+
+.add-p-b-ctn .button:nth-child(2){
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border: 1px solid transparent;    
+}
+
+.add-p-b-ctn .button:nth-child(2):hover{
+    color: var(--color-red);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-red);    
+}

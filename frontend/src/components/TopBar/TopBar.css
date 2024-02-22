@@ -1,0 +1,15 @@
+.head-container {
+    position: fixed;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-red);
+    width: 100%;
+    color: var(--color-white);
+    font-size: 36px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 95;
+}

@@ -1,0 +1,8 @@
+.load-container {
+    margin-top: 100px;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}

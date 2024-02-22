@@ -1,0 +1,40 @@
+.navbar-container {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    background-color: var(--color-white);
+    box-shadow: 0px 5px 10px var(--color-red-overlay);
+    z-index: 100;
+}
+
+
+.nav-button-container {
+    width: 290px;
+    border: 1px solid var(--color-red-2);
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--color-red-1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-link-container {
+    display: grid;
+    text-decoration: none;
+    color: var(--color-red);
+    width: 100%;
+    height: 100%;
+    place-items: center;
+}
+
+.nav-link-container.active {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border-radius: 10px;
+}
